@@ -1,0 +1,11 @@
+127.0.0.1 - - [02/May/2024:19:50:04 +0630] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:50:06 +0630] "GET /StudentRegistration_Servlet/ HTTP/1.1" 200 5807
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:50:06 +0630] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:50:16 +0630] "POST /StudentRegistration_Servlet/UserLogin HTTP/1.1" 200 5860
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:50:24 +0630] "POST /StudentRegistration_Servlet/UserLogin HTTP/1.1" 500 5820
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:50:26 +0630] "GET /StudentRegistration_Servlet/USR001.jsp HTTP/1.1" 200 12036
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:52:03 +0630] "POST /StudentRegistration_Servlet/UserLogin HTTP/1.1" 200 10257
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:52:20 +0630] "GET /StudentRegistration_Servlet/STU001.jsp HTTP/1.1" 200 14808
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:52:21 +0630] "GET /StudentRegistration_Servlet/STU001.jsp HTTP/1.1" 200 14808
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:52:41 +0630] "POST /StudentRegistration_Servlet/StudentRegister HTTP/1.1" 200 14838
+0:0:0:0:0:0:0:1 - - [02/May/2024:19:52:41 +0630] "GET /StudentRegistration_Servlet/StudentRegister HTTP/1.1" 405 751

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circular Image with Rotation</title>
+<style>
+        body {
+        background-image: url('photo/anime-girl-traveling-4k-wallpaper-uhdpaper.com-860@0@i.jpg'); /* Set the background image */
+        background-size: cover; /* Cover the entire background */
+        background-repeat: no-repeat; /* Prevent background image from repeating */
+    }
+    .circular-image {
+        width: 150px; /* Set the width of the circular image */
+        height: 150px; /* Set the height of the circular image */
+        border-radius: 50%; /* Make the border-radius 50% to create a circle */
+        overflow: hidden; /* Hide any content that goes beyond the circular shape */
+        animation: rotate 8s linear infinite; /* Apply the rotate animation */
+        position: absolute;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg); /* Rotate from 0 degrees */
+        }
+        to {
+            transform: rotate(360deg); /* Rotate to 360 degrees */
+        }
+    }
+</style>
+</head>
+<body>
+
+
+
+    <h1 style="color: red;">Pizza Hat</h1>
+
+<!-- Circular image with rotation -->
+
+<a href="https://youtu.be/h-72DxHsH2A?si=3Yh_gLG8LiYVKQDQ"><img src="photo/pizza1.jpg" alt="Your Image" class="circular-image">
+</a>
+
+</body>
+</html>
